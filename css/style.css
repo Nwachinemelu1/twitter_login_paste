@@ -14,3 +14,17 @@ body {
   overflow-x: hidden;
 }
 
+.container {
+    width: 100vw;
+    height: 87vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+   
+  .image {
+    height: 100%;
+    background: url('img/cover-img.png') center center/cover;
+    flex: 0 1 53vw;
+    position: relative;
+  }
+  
