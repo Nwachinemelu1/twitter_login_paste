@@ -7,6 +7,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
  
 body {
   font-family: 'Lato', sans-serif;
@@ -28,3 +29,38 @@ body {
     position: relative;
   }
   
+  .content {
+    flex: 0 0 47vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 2rem;
+  }
+   
+  .big-bird {
+    width: 16rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    fill: #fff;
+  }
+
+  .content {
+  flex: 0 0 47vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+ 
+.big-bird {
+  width: 16rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  fill: #fff;
+}
