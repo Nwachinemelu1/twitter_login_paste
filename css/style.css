@@ -55,7 +55,7 @@ body {
   justify-content: space-evenly;
   padding: 2rem;
 }
- 
+
 .big-bird {
   width: 16rem;
   position: absolute;
@@ -64,3 +64,29 @@ body {
   transform: translate(-50%, -50%);
   fill: #fff;
 }
+.small-bird {
+    width: 3.5rem;
+    fill: #1da1f2;
+   }
+   h1, h3 {
+     color: #0f1419;
+     font-weight: 900;
+   }
+   h1 {
+     font-size: 5.5vw;
+   }
+   h3 {
+    font-size: 2.3rem;
+  }
+  .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24rem;
+    height: 3.3rem;
+    border-radius: 10vw;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 700;
+  }
+     
