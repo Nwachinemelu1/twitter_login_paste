@@ -89,4 +89,25 @@ body {
     text-decoration: none;
     font-weight: 700;
   }
+  .btn-signup {
+    background: #1da1f2;
+    color: #fff;
+    transition: all .2s ease;
+    margin-bottom: 20px;
+  }
+   
+  .btn-signup:hover {
+    background: #1f94dd;
+  }
+   
+  .btn-login {
+    border: 1px solid #1da1f2;
+    color: #1da1f2;
+  }
+   
+  .footer {
+    padding: 1rem 2%;
+  }
+   
+  
      
